@@ -16,3 +16,4 @@ TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 
 # Default Publisher Adapter (discord | mock_x | mock_linkedin | telegram)
 DEFAULT_PUBLISHER_ADAPTER = os.getenv("DEFAULT_PUBLISHER_ADAPTER", "discord")
+

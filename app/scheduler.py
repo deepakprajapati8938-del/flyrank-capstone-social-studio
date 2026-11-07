@@ -194,3 +194,4 @@ def run_scheduler_worker(
         "total_processed": len(processed),
         "results": processed
     }
+

@@ -34,3 +34,4 @@ class MockXPublisher(SocialPublisher):
             adapter_name=self.adapter_id,
             message=f"Successfully simulated tweet publication on X. Length: {len(full_tweet)} chars."
         )
+

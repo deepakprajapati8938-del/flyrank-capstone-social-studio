@@ -79,3 +79,4 @@ def validate_variant_against_profile(
         )
 
     return True, None
+

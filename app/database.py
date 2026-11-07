@@ -84,3 +84,4 @@ def get_db(db_path: str = DATABASE_PATH):
         conn.commit()
     finally:
         conn.close()
+

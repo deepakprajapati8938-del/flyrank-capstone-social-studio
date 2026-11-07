@@ -230,3 +230,4 @@ def select_active_adapter(adapter_id: str):
         return {"status": "swapped", "active_adapter": adapter_id}
     except ValueError as ve:
         raise HTTPException(status_code=400, detail=str(ve))
+

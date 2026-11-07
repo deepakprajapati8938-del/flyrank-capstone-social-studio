@@ -78,3 +78,4 @@ def get_publisher_adapter(adapter_id: Optional[str] = None) -> SocialPublisher:
     return adapter
 ```
 - **Why this exists**: The core publishing and scheduling pipeline has zero knowledge of Discord, X, or LinkedIn APIs. It depends exclusively on the `SocialPublisher` interface. Swapping from a live target to a mock adapter for testing or staging is purely a configuration change.
+

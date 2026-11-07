@@ -53,3 +53,4 @@ class PublishHistoryEntry(BaseModel):
     error_message: Optional[str]
     idempotency_key: str
     published_at: str
+

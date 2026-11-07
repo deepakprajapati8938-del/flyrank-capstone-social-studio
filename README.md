@@ -199,3 +199,6 @@ curl -X POST "http://localhost:8000/api/adapters/select?adapter_id=mock_linkedin
 - [`EVIDENCE.md`](file:///x:/Medicaps/Internship/flyrank-capstone-social-studio/EVIDENCE.md): Verbatim command output proofs for all 6 acceptance probes.
 - [`BUILDLOG.md`](file:///x:/Medicaps/Internship/flyrank-capstone-social-studio/BUILDLOG.md): AI transparency disclosure and code defense.
 - [`.env.example`](file:///x:/Medicaps/Internship/flyrank-capstone-social-studio/.env.example): Safe environment variable defaults.
+
+#   f l y r a n k - c a p s t o n e - s o c i a l - s t u d i o  
+ 

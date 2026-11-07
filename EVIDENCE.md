@@ -140,3 +140,4 @@ SUMMARY: 6/6 PROBES PASSED (100% SUCCESS)
 ======================================================================
 ```
 All 6 acceptance probes and Pytest tests run deterministically via `python run_probes.py` or `pytest -v`.
+

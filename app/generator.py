@@ -88,3 +88,4 @@ def generate_variants_for_post(post_id: str, db_path: str = DATABASE_PATH) -> Li
         conn.commit()
 
     return saved_variants
+

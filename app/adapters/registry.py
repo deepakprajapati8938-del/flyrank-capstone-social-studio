@@ -32,3 +32,4 @@ def get_publisher_adapter(adapter_id: Optional[str] = None) -> SocialPublisher:
     if not adapter:
         raise ValueError(f"Unknown publisher adapter '{selected}'. Registered adapters: {list(ADAPTERS.keys())}")
     return adapter
+

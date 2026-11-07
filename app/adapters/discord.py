@@ -63,3 +63,4 @@ class DiscordWebhookPublisher(SocialPublisher):
             adapter_name=self.adapter_id,
             message=f"Delivered through Discord Webhook Adapter (Preview Mode). Content: {len(full_message)} chars."
         )
+

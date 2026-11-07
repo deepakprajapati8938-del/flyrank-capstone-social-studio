@@ -33,3 +33,4 @@ class MockLinkedInPublisher(SocialPublisher):
             adapter_name=self.adapter_id,
             message=f"Successfully simulated LinkedIn professional share. Length: {len(full_post)} chars."
         )
+

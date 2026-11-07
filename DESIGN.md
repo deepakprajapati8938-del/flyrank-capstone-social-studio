@@ -144,3 +144,4 @@ $$\text{idempotency\_key} = \text{hash}(\text{variant\_id} + \text{slot\_time})$
 1. **No Paid Social Platform Subscriptions**: No real X API developer tier ($100/mo) or LinkedIn marketing partner approval required. We use one real free platform (Discord/Telegram webhook) plus realistic local mock adapters.
 2. **No Video Transcoding Engine**: System focuses strictly on text variants, hashtag profiles, and link previews.
 3. **No Heavy Frontend Framework**: Review workflow and scheduling are driven through clean REST API endpoints and lightweight interactive dashboards.
+

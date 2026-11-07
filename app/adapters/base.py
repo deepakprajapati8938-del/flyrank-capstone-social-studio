@@ -39,3 +39,4 @@ class SocialPublisher(ABC):
         Must be idempotent with respect to idempotency_key.
         """
         pass
+
