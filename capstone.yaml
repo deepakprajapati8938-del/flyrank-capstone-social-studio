@@ -1,0 +1,31 @@
+version: "1.0"
+name: "flyrank-capstone-social-studio"
+track: "backend"
+candidate: "Deepak Prajapati"
+
+# Evaluator Commands
+run: "uvicorn app.main:app --host 0.0.0.0 --port 8000"
+seed: "python seed.py"
+test: "python run_probes.py"
+pytest: "pytest -v"
+
+# Service Surface
+base_url: "http://localhost:8000"
+endpoints:
+  health: "/health"
+  ingest_post: "/api/posts/ingest"
+  list_posts: "/api/posts"
+  get_variants: "/api/posts/{id}/variants"
+  validate_variant: "/api/variants/validate"
+  review_variant: "/api/variants/{id}/review"
+  schedule_slot: "/api/schedule"
+  trigger_worker: "/api/scheduler/run"
+  publish_history: "/api/history"
+  adapters: "/api/adapters"
+
+metrics:
+  adapter_architecture: true
+  constraint_profiles_enforced: true
+  review_workflow_gated: true
+  idempotent_publishing: true
+  durable_scheduling: true
